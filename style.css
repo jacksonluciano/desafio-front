@@ -1,0 +1,96 @@
+.topo {
+  padding: 40px 0;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 40px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 40px 0;
+  border-top: 14px solid;
+  border-image: linear-gradient(
+      to right,
+      #ffeb36 20%,
+      #ffeb36 20%,
+      #f72930 20%,
+      #f72930 40%,
+      #399fe8 40%,
+      #399fe8 60%,
+      #00dc58 60%,
+      #00dc58 80%,
+      #0f0a0a 80%,
+      #0f0a0a 100%
+    )
+    5;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+}
+
+.custom-file-label::after {
+  content: "Procurar";
+}
+
+.table img {
+  object-fit: cover;
+  object-position: center;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.table tr{
+    
+}
+
+#erro-nome,
+#erro-idade,
+#erro-imagem,
+#erro-envio {
+  position: absolute;
+  right: 0;
+  color: white;
+  font-size: 11px;
+  background-color: #ff5656;
+  padding: 0px 4px;
+  border-radius: 4px;
+  bottom: -24px;
+}
+
+#erro-envio {
+  left: 95px;
+  bottom: 18px;
+}
+
+.form-group {
+  position: relative;
+}
+
+#erro-nome.valid,
+#erro-idade.valid,
+#erro-imagem.valid,
+#erro-envio.valid {
+  background-color: #5bac60;
+}
